@@ -13,24 +13,24 @@ HTML includes via fetch()
 Example: This loads menu.html into the HTML element <nav>
 =====================================================
 */
-fetch('menu.html')
+fetch("menu.html")
 	.then((response) => {
 		return response.text();
 	})
 	.then((data) => {
-		document.querySelector('nav').innerHTML = data;
+		document.querySelector("nav").innerHTML = data;
 	});
-
 /* 
+
 Example (not used): loads footer.html into the HTML element <footer> 
 =====================================================
 */
-fetch('footer.html')
+fetch("footer.html")
 	.then((response) => {
 		return response.text();
 	})
 	.then((data) => {
-		document.querySelector('footer').innerHTML = data;
+		document.querySelector("footer").innerHTML = data;
 	});
 
 /* 
@@ -41,15 +41,15 @@ in the container with the ID of "menu"
 =====================================================
 */
 function setActive() {
-	linkObj = document.querySelectorAll('#menu a');
+	linkObj = document.querySelectorAll("#menu a");
 	for (i = 0; i < linkObj.length; i++) {
 		if (document.location.href.indexOf(linkObj[i].href) >= 0) {
-			linkObj[i].classList.add('active');
+			linkObj[i].classList.add("active");
 		}
 	}
 }
-window.onload = function() {
-	setTimeout(function() {
+window.onload = function () {
+	setTimeout(function () {
 		setActive();
 	}, 500);
 };
