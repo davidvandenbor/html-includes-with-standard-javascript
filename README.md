@@ -10,6 +10,8 @@ An example of how you can include "snippets" of HTML into other HTML pages. This
 
 As a bonus, I've also added a few lines of code that sticks an ".active" css class on the menu item (with the name of the currently loaded page). It does this by checking the URL that's actively present in the address bar of your browser, and then [looping](https://www.w3schools.com/js/js_loop_for.asp) over the menu items to see if it matches the name of the menu link.
 
+[![Alt text](img/set-active.png)](http://example.net/)
+
 ![](img/set-active.png)
 
 ## See it in action
