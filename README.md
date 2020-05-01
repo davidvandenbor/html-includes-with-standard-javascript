@@ -4,7 +4,7 @@ Play live with this code in **Plunker** > [click here!](https://embed.plnkr.co/g
 
 ![](img/explanation.png)
 
-An example of how you can include "snippets" of HTML into other HTML pages. This might come in handy for things like including headers, footers, menu's or sidebars to multiple pages of a website or application. For instance, you can embed **this** into 20 or 30 webpages: a **single top bar navigation menu** which was saved as a reusable piece of code in a seperate text or HTML file. It takes just a couple of lines of javascript to do this.
+An example of how you can include "snippets" of HTML into other HTML pages. This might come in handy for things like including headers, footers, menu's or sidebars to multiple pages of a website or application. For instance, you can embed a **snippet of code** into 20 or 30 webpages simultaniously: a **single top bar navigation menu** which was saved as a reusable piece of code in a seperate text or HTML file. It takes just a couple of lines of javascript to do this.
 
 ![](img/html-include-with-javascript.png)
 
