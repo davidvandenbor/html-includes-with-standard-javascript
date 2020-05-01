@@ -1,9 +1,13 @@
 {
   "title": "html-includes-with-standard-javacsript",
-  "description": "",
+  "description": "Using vanilla javascript to create reusable include snippets for HTML pages",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
-  }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
 }
