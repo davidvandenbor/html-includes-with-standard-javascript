@@ -1,5 +1,9 @@
 {
   "title": "html-includes-with-standard-javacsript",
   "description": "",
-  "main": "index.html"
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  }
 }
