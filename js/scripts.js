@@ -25,6 +25,7 @@ fetch("menu.html")
 Example (not used): loads footer.html into the HTML element <footer> 
 =====================================================
 */
+/*
 fetch("footer.html")
 	.then((response) => {
 		return response.text();
@@ -32,6 +33,7 @@ fetch("footer.html")
 	.then((data) => {
 		document.querySelector("footer").innerHTML = data;
 	});
+*/
 
 /* 
 BONUS!!! Stick an ".active" class 
