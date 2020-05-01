@@ -12,7 +12,7 @@ As a bonus, I've also added a few lines of code that sticks an ".active" css cla
 
 [![jump to code example in Plunker](img/set-active.png)](https://embed.plnkr.co/github/davidvandenbor/html-includes-with-standard-javascript)
 
-## See it in action
+## See it live
 
 See a working version online that you can download (ZIP) or edit live in **Plunker**:
 https://embed.plnkr.co/github/davidvandenbor/html-includes-with-standard-javascript
