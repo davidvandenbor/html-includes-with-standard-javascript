@@ -8,7 +8,12 @@ An example of how you can include "snippets" of HTML into other HTML pages. This
 
 ![](img/html-include-with-javascript.png)
 
-As a bonus, I've also added a few lines of code that sticks an ".active" css class on the menu item with the name as the currently loaded page. It does this by checking the URL that's actively present in the address bar of your browser.
+As a bonus, I've also added a few lines of code that sticks an ".active" css class on the menu item (with the name of the currently loaded page). It does this by checking the URL that's actively present in the address bar of your browser, and then [looping](https://www.w3schools.com/js/js_loop_for.asp){:target="\_blank"}
+
+<a href="https://www.w3schools.com/js/js_loop_for.asp" target="_blank">
+over the menu items to see if it matches the name of the menu link.
+
+![](img/set-active.png)
 
 ## See it in action
 

@@ -48,6 +48,9 @@ function setActive() {
 		}
 	}
 }
+// wait for half a second for the page to load, 
+// THEN stick the classes to the menu items
+
 window.onload = function () {
 	setTimeout(function () {
 		setActive();
