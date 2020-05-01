@@ -43,7 +43,7 @@ in the container with the ID of "menu"
 =====================================================
 */
 function setActive() {
-	linkObj = document.querySelectorAll("#menu a");
+	var linkObj = document.querySelectorAll("#menu a");
 	for (i = 0; i < linkObj.length; i++) {
 		if (document.location.href.indexOf(linkObj[i].href) >= 0) {
 			linkObj[i].classList.add("active");
