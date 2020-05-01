@@ -13,7 +13,7 @@ HTML includes via fetch()
 Example: This loads menu.html into the HTML element <nav>
 =====================================================
 */
-fetch("menu.html")
+await fetch("menu.html")
 	.then((response) => {
 		return response.text();
 	})
