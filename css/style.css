@@ -1,11 +1,12 @@
 body {
    font-family: Arial, sans-serif;
    margin: 0;
+   padding:0;
    animation-name: fadeIn;
    animation-duration: 1s;
 }
 
-@-webkit-keyframes fadeIn {
+@keyframes fadeIn {
    from {
       transform: translateY(-30px)
    }
@@ -34,7 +35,7 @@ nav {
    justify-content: flex-end;
    margin: 0;
    padding: 0;
-   width: 100%;
+   width: auto;
    background: #f0f0f0;
    border: 1px solid #ccc;
    border-right: none;
@@ -95,6 +96,13 @@ nav label {
       padding-bottom: 50px;
       overflow: hidden;
       max-height: 470px;
+   }
+}
+
+/* alleen voor presentatie, mag weg: */
+@media (max-height:400px) {
+   body,html {
+      overflow: hidden;
    }
 }
 
